@@ -62,11 +62,18 @@ class WebmailLinker {
 		if(count($emailParts) !== 2) {
 			throw new Exception('Invalid email address "' . $emailAddress . '" provided.');
 		}
-		$emailDomain = $emailParts[1];
 
+		return $this->getProviderByDomain($emailParts[1]);
+	}
+
+	/**
+	 * @param string $domain
+	 * @return array|null array('name' => ..., 'url' => ..., 'icon' => ...)
+	 */
+	public function getProviderByDomain($domain) {
 		foreach($this->providers as $i => $provider) {
-			foreach(explode(' ', $provider['domains']) as $domain) {
-				if(preg_match('/^' . $domain . '$/i', $emailDomain)) {
+			foreach(explode(' ', $provider['domains']) as $providerDomain) {
+				if(preg_match('/^' . $providerDomain . '$/i', $domain)) {
 					return $provider;
 				}
 			}
