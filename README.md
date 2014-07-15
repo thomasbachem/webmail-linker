@@ -21,8 +21,19 @@ The list contains 150+ email providers so far.
 ### Languages
 
 The core of this project, the list of email providers, is maintained in JSON. The provided
-wrapper classes to query the list are very simple – feel free to add wrappers for languages
-of your choice via pull requests.
+wrapper classes to query the list are very simple – feel free to add libraries for other
+languages via pull requests.
+
+Usage example (PHP):
+
+```php
+$wl = new WebmailLinker();
+
+if($provider = $wl->getProviderByEmailAddress('user@example.com')) {
+  $html = '<a href="%s">Check your email at %s</a>';
+  printf($html, htmlspecialchars($provider['name']), htmlspecialchars($provider['url']));
+}
+```
 
 
 ### Contributing
