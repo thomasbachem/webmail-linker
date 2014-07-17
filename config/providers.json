@@ -12,7 +12,7 @@
 	" backslash to escape dots, as it is more readable. The expression '[a-z.]{2,6}' is  ",
 	" used to match against different TLDs, e.g. '.de', '.co.uk', '.com.tr' etc.         ",
 	"                                                                                    ",
-	" The 'icon' URL should be a HTTPS/SSL URL whenever possible.                        ",
+	" The 'icon' URL is optional but should be given and a HTTPS URL whenever possible.  ",
 	"                                                                                    ",
 	" dev/urlchecker.php can be used to validate the availability of URLs & icons.       ",
 
@@ -50,7 +50,7 @@
 	},
 	{
 		"name":    "AOL Mail",
-		"domains": "aol[.]com",
+		"domains": "aol[.]com aol[.]co[.]uk",
 		"url":     "http://webmail.aol.com/",
 		"icon":    "https://mail.aol.com/favicon.ico"
 	},
@@ -100,7 +100,7 @@
 	},
 	{
 		"name":    "GMX FreeMail",
-		"domains": "gmx[.][a-z.]{2,6} gmx-topmail[.]de",
+		"domains": "gmx[.][a-z.]{2,6} gmx-topmail[.]de imail[.]de",
 		"url":     "http://www.gmx.net/",
 		"icon":    "https://img.gmx.net/gmx/hp10/icons/favicon.ico"
 	},
@@ -142,7 +142,7 @@
 	},
 	{
 		"name":    "EWE Webmail",
-		"domains": "ewetel[.]net ewe[.]net",
+		"domains": "ewetel[.]net ewe[.]net teleos-web[.]de",
 		"url":     "https://webmail.ewe.net/",
 		"icon":    "https://webmail.ewe.net/portal/favicon.ico"
 	},
@@ -190,7 +190,7 @@
 	},
 	{
 		"name":    "Versatel",
-		"domains": "versatel[.]de",
+		"domains": "versatel[.]de versanet[.]de versanet-online[.]de",
 		"url":     "https://www.versatel.de/mein-versatel/dsl",
 		"icon":    "https://www.versatel.de/sites/default/files/versatel_favicon.ico"
 	},
@@ -213,10 +213,27 @@
 		"icon":    "https://www.tele2.de/favicon.ico"
 	},
 	{
+		"name":    "Tele Columbus Webmail",
+		"domains": "telecolumbus[.]net",
+		"url":     "https://webmailer.telecolumbus.net/",
+		"icon":    "https://www.telecolumbus.de/favicon.ico"
+	},
+	{
+		"name":    "NeckarCom Webmail",
+		"domains": "nc-online[.]de",
+		"url":     "http://nc-online.de/login.php"
+	},
+	{
 		"name":    "Emailn.de",
 		"domains": "emailn[.]de",
 		"url":     "http://www.emailn.de/",
 		"icon":    "https://www.emailn.de/favicon.ico"
+	},
+	{
+		"name":    "directBOX",
+		"domains": "directbox[.]com",
+		"url":     "https://directbox.com/",
+		"icon":    "https://directbox.com/portal/img/directbox/Icons/favicon/favicon.ico"
 	},
 
 	"===== German Universities =====",
@@ -225,6 +242,12 @@
 		"domains": "rwth-aachen[.]de",
 		"url":     "https://mail.rwth-aachen.de",
 		"icon":    "https://www.rwth-aachen.de/favicon.ico"
+	},
+	{
+		"name":    "FH Aachen",
+		"domains": "fh-aachen[.]de alumni[.]fh-aachen[.]de",
+		"url":     "https://mail.fh-aachen.de",
+		"icon":    "https://www.fh-aachen.de/favicon.ico"
 	},
 	{
 		"name":    "Uni Bonn",
@@ -257,8 +280,8 @@
 		"icon":    "https://www.uni-due.de/favicon.ico"
 	},
 	{
-		"name":    "Uni Düsseldorf",
-		"domains": "uni-duesseldorf[.]de",
+		"name":    "HHU Düsseldorf",
+		"domains": "uni-duesseldorf[.]de hhu[.]de",
 		"url":     "https://iwc.uni-duesseldorf.de/iwc_static/layout/login.html",
 		"icon":    "https://www.uni-duesseldorf.de/home/fileadmin/images/icons/favicon.ico"
 	},
@@ -279,6 +302,12 @@
 		"domains": "students[.]uni-mainz[.]de",
 		"url":     "https://mail.uni-mainz.de/",
 		"icon":    "https://www.uni-mainz.de/favicon.ico"
+	},
+	{
+		"name":    "FH Mainz",
+		"domains": "students[.]fh-mainz[.]de",
+		"url":     "https://webmailer.fh-mainz.de/",
+		"icon":    "https://www.fh-mainz.de/favicon.ico"
 	},
 	{
 		"name":    "Uni Bielefeld",
@@ -396,7 +425,7 @@
 	},
 	{
 		"name":    "KIT",
-		"domains": "kit[.]edu",
+		"domains": "kit[.]edu students[.]kit[.]edu",
 		"url":     "https://owa.kit.edu",
 		"icon":    "https://www.kit.edu/favicon.ico"
 	},
@@ -417,6 +446,12 @@
 		"domains": "stud[.]uni-heidelberg[.]de",
 		"url":     "https://exchange.uni-heidelberg.de",
 		"icon":    "https://www.uni-heidelberg.de/favicon.ico"
+	},
+	{
+		"name":    "SRH Hochschule Heidelberg",
+		"domains": "fh-heidelberg[.]de hochschule-heidelberg[.]de",
+		"url":     "http://wwwfh.fh-heidelberg.de/tools/vpnswitch.php?url=http://fhclusrv-ex.dcs.fh-heidelberg.de/exchange/",
+		"icon":    "http://www.hochschule-heidelberg.de/favicon.ico"
 	},
 	{
 		"name":    "FH Düsseldorf",
@@ -474,7 +509,7 @@
 	},
 	{
 		"name":    "FH Dortmund",
-		"domains": "stud[.]fh-dortmund[.]de",
+		"domains": "stud[.]fh-dortmund[.]de fh-dortmund[.]de",
 		"url":     "https://webmail.fh-dortmund.de",
 		"icon":    "http://www.fh-dortmund.de/favicon.ico"
 	},
@@ -533,6 +568,18 @@
 		"icon":    "https://www.mh-hannover.de/favicon.ico"
 	},
 	{
+		"name":    "HS Hannover",
+		"domains": "stud[.]fh-hannover[.]de",
+		"url":     "https://webmail.fh-hannover.de",
+		"icon":    "https://www.hs-hannover.de/fileadmin/templates/img/favicon.ico"
+	},
+	{
+		"name":    "HS Hannover",
+		"domains": "stud[.]hs-hannover[.]de",
+		"url":     "https://mail.hs-hannover.de",
+		"icon":    "https://www.hs-hannover.de/fileadmin/templates/img/favicon.ico"
+	},
+	{
 		"name":    "Uni Greifswald",
 		"domains": "uni-greifswald[.]de",
 		"url":     "https://groupware.uni-greifswald.de/",
@@ -558,7 +605,7 @@
 	},
 	{
 		"name":    "TU Chemnitz",
-		"domains": "informatik[.]tu-chemnitz[.]de",
+		"domains": "(informatik|can)[.]tu-chemnitz[.]de",
 		"url":     "https://mail.tu-chemnitz.de",
 		"icon":    "https://www.tu-chemnitz.de/favicon.ico"
 	},
@@ -612,7 +659,7 @@
 	},
 	{
 		"name":    "TH Deggendorf",
-		"domains": "th-deg[.]de stud[.]hdu-deggendorf[.]de",
+		"domains": "th-deg[.]de stud[.]hdu-deggendorf[.]de stud[.]th-deg[.]de",
 		"url":     "https://webmail.th-deg.de/roundcube/",
 		"icon":    "https://www.th-deg.de/favicon.ico"
 	},
@@ -677,22 +724,94 @@
 		"icon":    "http://www.hs-albsig.de/images/FAVICON.ICO"
 	},
 	{
-		"name":    "Uni Erlangen",
-		"domains": "studium.uni-erlangen[.]de",
+		"name":    "FAU Erlangen-Nürnberg",
+		"domains": "studium[.]fau[.]de studium[.]uni-erlangen[.]de",
 		"url":     "https://faumail.uni-erlangen.de",
 		"icon":    "https://faumail.uni-erlangen.de/favicon.ico"
 	},
 	{
 		"name":    "Uni Regensburg",
-		"domains": "stud.uni-regensburg[.]de",
+		"domains": "stud[.]uni-regensburg[.]de",
 		"url":     "https://gw.uni-regensburg.de/gw/",
 		"icon":    "https://www.uni-regensburg.de/favicon.ico"
 	},
 	{
 		"name":    "FH Rosenheim",
-		"domains": "stud.fh-rosenheim[.]de",
+		"domains": "stud[.]fh-rosenheim[.]de",
 		"url":     "https://webmail.fh-rosenheim.de",
 		"icon":    "https://www.fh-rosenheim.de/typo3conf/ext/in2template/Resources/Public/Images/favicon.ico"
+	},
+	{
+		"name":    "HS Heilbronn",
+		"domains": "stud[.]hs-heilbronn[.]de",
+		"url":     "https://webmail.stud.hs-heilbronn.de/",
+		"icon":    "https://www.hs-heilbronn.de/favicon.ico"
+	},
+	{
+		"name":    "Uni Münster",
+		"domains": "uni-muenster[.]de",
+		"url":     "https://permail.uni-muenster.de/",
+		"icon":    "https://www.uni-muenster.de/imperia/md/content/allgemein/farbunabhaengig/favicon.ico"
+	},
+	{
+		"name":    "TU Braunschweig",
+		"domains": "tu-bs[.]de tu-braunschweig[.]de",
+		"url":     "https://groupware.tu-braunschweig.de/",
+		"icon":    "https://www.tu-braunschweig.de/icons/tubsdesign/favicon.ico"
+	},
+	{
+		"name":    "HAW Hamburg",
+		"domains": "haw-hamburg[.]de",
+		"url":     "https://haw-mailer.haw-hamburg.de/owa/",
+		"icon":    "http://haw-hamburg.de/favicon.ico"
+	},
+	{
+		"name":    "HS Zwickau",
+		"domains": "fh-zwickau[.]de",
+		"url":     "https://mail.fh-zwickau.de/owa/",
+		"icon":    "https://www.fh-zwickau.de/favicon.ico"
+	},
+	{
+		"name":    "HS Madgeburg-Stendal",
+		"domains": "hs-magdeburg[.]de",
+		"url":     "https://webmail.hs-magdeburg.de",
+		"icon":    "https://www.hs-magdeburg.de/favicon.ico"
+	},
+	{
+		"name":    "FH Kaiserslautern",
+		"domains": "stud[.]fh-kl[.]de",
+		"url":     "https://mail01.ds.fh-kl.de",
+		"icon":    "https://www.fh-kl.de/fileadmin/favicon.ico"
+	},
+	{
+		"name":    "my.ebs",
+		"domains": "ebs[.]de",
+		"url":     "https://www.myebs.de/",
+		"icon":    "http://www.ebs.edu/favicon.ico"
+	},
+	{
+		"name":    "WHU Webmail",
+		"domains": "whu[.]edu",
+		"url":     "https://webmail.whu.edu/",
+		"icon":    "https://www.whu.edu/favicon.ico"
+	},
+	{
+		"name":    "Westfälische Hochschule",
+		"domains": "studmail[.]w-hs[.]de",
+		"url":     "https://mail.w-hs.de/",
+		"icon":    "https://www.w-hs.de/fileadmin/template/img/favicon.png"
+	},
+	{
+		"name":    "FH Schmalkalden",
+		"domains": "stud[.]fh-sm[.]de stud[.]fh-schmalkalden[.]de",
+		"url":     "https://webmail.fh-schmalkalden.de/",
+		"icon":    "http://www.fh-schmalkalden.de/skin/schmalkalden/favicon.ico"
+	},
+	{
+		"name":    "Uni Bamberg",
+		"domains": "stud[.]uni-bamberg[.]de uni-bamberg[.]de",
+		"url":     "https://mail.stud.uni-bamberg.de/",
+		"icon":    "https://www.uni-bamberg.de/favicon.ico"
 	},
 
 	"===== Austria =====",
@@ -739,6 +858,56 @@
 		"icon":    "https://www.tele2.de/favicon.ico"
 	},
 
+	"===== Austrian Universities =====",
+	{
+		"name":    "Uni Innsbruck",
+		"domains": "student[.]uibk[.]ac[.]at",
+		"url":     "https://web-mail.uibk.ac.at",
+		"icon":    "https://www2.uibk.ac.at/images/10/favicon.png"
+	},
+	{
+		"name":    "Uni Wien",
+		"domains": "univie[.]ac[.]at",
+		"url":     "http://webmail.univie.ac.at/",
+		"icon":    "https://www.univie.ac.at/fileadmin/favicon.ico"
+	},
+	{
+		"name":    "FH Wien",
+		"domains": "edu[.]fh-wien[.]ac[.]at",
+		"url":     "https://webmail.fh-wien.ac.at/",
+		"icon":    "http://en.fh-wien.ac.at/fileadmin/favicon.ico"
+	},
+	{
+		"name":    "FH des BFI Wien",
+		"domains": "fh-vie[.]ac[.]at",
+		"url":     "http://mail.office365.com/",
+		"icon":    "http://www.fh-vie.ac.at/design/em_plain_site/images/favicon.ico"
+	},
+	{
+		"name":    "Uni Graz",
+		"domains": "edu[.]uni-graz[.]at",
+		"url":     "https://sbox.edu.uni-graz.at/",
+		"icon":    "https://it.uni-graz.at/favicon.ico"
+	},
+	{
+		"name":    "FH Wiener Neustadt",
+		"domains": "fhwn[.]ac[.]at",
+		"url":     "https://mail.fhwn.ac.at",
+		"icon":    "http://www.fhwn.ac.at/Frontend/img/favicon.ico"
+	},
+	{
+		"name":    "HLW Mistelbach",
+		"domains": "hlwmistelbach[.]ac[.]at",
+		"url":     "https://mail.hlwmistelbach.ac.at/",
+		"icon":    "http://www.hlwmistelbach.ac.at/templates/bakiphlwfwmistelbach/favicon.ico"
+	},
+	{
+		"name":    "FH OÖ",
+		"domains": "students[.]fh-linz[.]at",
+		"url":     "http://webmail.fh-linz.at/",
+		"icon":    "http://www.fh-ooe.at/favicon.ico"
+	},
+
 	"===== Switzerland =====",
 	{
 		"name":    "Swisscom Webmail",
@@ -757,6 +926,32 @@
 		"domains": "sunrise[.]ch",
 		"url":     "https://mip.sunrise.ch/mip/dyn/login/login",
 		"icon":    "https://mip.sunrise.ch/mip/ext/img/favicon.ico"
+	},
+	{
+		"name":    "Raiffeisen Online",
+		"domains": "rolmail.net",
+		"url":     "https://web.rolmail.net/",
+		"icon":    "https://rob.raiffeisen.it/favicon.ico"
+	},
+
+	"===== Swiss Universities =====",
+	{
+		"name":    "FHNW",
+		"domains": "students[.]fhnw[.]ch",
+		"url":     "https://webmail.students.fhnw.ch",
+		"icon":    "https://webmail.students.fhnw.ch/CookieAuth.dll?GetPic?formdir=1&image=favicon.ico"
+	},
+	{
+		"name":    "Uni Bern",
+		"domains": "students[.]unibe[.]ch",
+		"url":     "https://mail.campus.unibe.ch",
+		"icon":    "http://www.unibe.ch/favicon.ico"
+	},
+	{
+		"name":    "Uni Freiburg",
+		"domains": "unifr[.]ch",
+		"url":     "https://mail.unifr.ch",
+		"icon":    "https://webaccess.unifr.ch/Images/UniFr-favicon.ico"
 	},
 
 	"===== US =====",
@@ -884,6 +1079,12 @@
 		"url":     "https://login.libero.it",
 		"icon":    "http://img1.iol.it/s/2013/i/hf/favicon.ico"
 	},
+	{
+		"name":    "Tiscali Mail",
+		"domains": "tiscali[.]it",
+		"url":     "https://mail.tiscali.it/",
+		"icon":    "https://mail.tiscali.it/skins/wm_mc_tiscali_it/images/favicon.ico"
+	},
 
 	"===== Russia =====",
 	{
@@ -920,9 +1121,21 @@
 	},
 	{
 		"name":    "INTERIA.PL",
-		"domains": "interia[.]pl",
+		"domains": "interia[.](pl|eu) poczta[.]fm",
 		"url":     "https://poczta.interia.pl/",
 		"icon":    "https://poczta.interia.pl/favmix.ico"
+	},
+	{
+		"name":    "Gazeta.pl",
+		"domains": "gazeta[.]pl",
+		"url":     "http://poczta.gazeta.pl/",
+		"icon":    "http://www.gazeta.pl/favicon.ico"
+	},
+	{
+		"name":    "Onet Poczta",
+		"domains": "onet[.](pl|eu) poczta[.]onet[.]pl op[.]pl vp[.]pl",
+		"url":     "https://poczta.onet.pl/",
+		"icon":    "https://konto.onet.pl/favicon.ico"
 	},
 
 	"===== Czech Republic =====",
@@ -931,6 +1144,12 @@
 		"domains": "seznam[.]cz email[.]cz",
 		"url":     "https://email.seznam.cz",
 		"icon":    "https://login.szn.cz/img/favicon.ico"
+	},
+	{
+		"name":    "Tiscali E-mail",
+		"domains": "tiscali[.]cz",
+		"url":     "http://email.tiscali.cz",
+		"icon":    "http://hp.timg.cz/favicon.ico"
 	},
 
 	"===== Bulgaria =====",
@@ -947,6 +1166,20 @@
 		"domains": "freemail[.]hu",
 		"url":     "http://freemail.hu/mail/login.fm",
 		"icon":    "http://freemail.hu/favicon.ico"
+	},
+	{
+		"name":    "UPC Webmail",
+		"domains": "chello[.]hu",
+		"url":     "http://www.upc.hu/webmail/",
+		"icon":    "https://www.upc.hu/favicon.ico"
+	},
+
+	"===== China =====",
+	{
+		"name":    "QQMail",
+		"domains": "qq[.]com",
+		"url":     "https://mail.qq.com",
+		"icon":    "https://mail.qq.com/favicon.ico"
 	}
 
 ]
