@@ -715,7 +715,7 @@
 		"name":    "Uni Paderborn",
 		"domains": "mail.uni-paderborn[.]de",
 		"url":     "https://webmail.uni-paderborn.de",
-		"icon":    "https://www.uni-paderborn.de/favicon.ico"
+		"icon":    "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Icons/favicon.ico"
 	},
 	{
 		"name":    "HS Albstadt-Sigmaringen",
