@@ -1,4 +1,4 @@
-Webmail Linker
+Webmail Linker              <img src="README-1.png" alt="" align="right" valign="middle" />
 ===========================================================================================
 
 Collection of Email Providers' Webmail Sites
@@ -7,7 +7,7 @@ Collection of Email Providers' Webmail Sites
 
 ### About
 
-<img src="README.png" alt="" align="right" />
+<img src="README-2.png" alt="" align="right" />
 
 Many websites require an email double opt-in during user registration. This project wants
 to fix the resulting break in user flow when users have to manually switch to their email
