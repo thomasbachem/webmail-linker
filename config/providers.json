@@ -263,7 +263,7 @@
 	},
 	{
 		"name":    "TU Dortmund",
-		"domains": "tu-dortmund[.]de",
+		"domains": "tu-dortmund[.]de uni-dortmund[.]de udo[.]edu",
 		"url":     "https://webmail.tu-dortmund.de",
 		"icon":    "https://www.tu-dortmund.de/favicon.ico"
 	},
