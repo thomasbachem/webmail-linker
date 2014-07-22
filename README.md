@@ -7,6 +7,8 @@ Collection of Email Providers' Webmail Sites
 
 ### About
 
+<img src="README.png" alt="" align="right" />
+
 Many websites require an email double opt-in during user registration. This project wants
 to fix the resulting break in user flow when users have to manually switch to their email
 providers' website to receive the confirmation email.
@@ -15,7 +17,7 @@ With Webmail Linker, you can offer a direct link to the user's webmail interface
 addition to the webmail URL, you'll get the name of the email provider and a favicon URL,
 so you can offer a button like "Check your email on [name and icon of the provider]".
 
-The list contains 150+ email providers so far.
+**The list contains 180+ email providers so far.**
 
 
 ### Languages
