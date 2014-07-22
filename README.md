@@ -1,11 +1,11 @@
-Webmail Linker              <img src="README-1.png" alt="" align="right" valign="middle" />
+Webmail Linker
 ===========================================================================================
 
 Collection of Email Providers' Webmail Sites
 -------------------------------------------------------------------------------------------
 
 
-### About
+### About                   <img src="README-1.png" alt="" align="right" valign="middle" />
 
 <img src="README-2.png" alt="" align="right" />
 
