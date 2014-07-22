@@ -1,4 +1,4 @@
-package de.malax.webmaillinker
+package com.thomasbachem.webmaillinker
 
 import java.net.URI
 import play.api.libs.json._

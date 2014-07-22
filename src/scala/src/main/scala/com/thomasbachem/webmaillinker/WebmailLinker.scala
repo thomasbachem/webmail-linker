@@ -1,4 +1,4 @@
-package de.malax.webmaillinker
+package com.thomasbachem.webmaillinker
 
 import play.api.libs.json._
 import scala.io.{Codec, Source}
