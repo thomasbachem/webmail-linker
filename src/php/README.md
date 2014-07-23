@@ -18,7 +18,7 @@ if($provider = $wl->getProviderByEmailAddress('user@example.com')) {
 
 ### Compatibility
 
-PHP 5.3+
+PHP 5.2+
 
 
 ### Dependencies

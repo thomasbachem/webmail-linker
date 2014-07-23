@@ -17,7 +17,7 @@ class WebmailLinker {
 
 	
 	public function __construct() {
-		$path = __DIR__ . '/../../config/providers.json';
+		$path = dirname(__FILE__) . '/../../config/providers.json';
 		if(!is_readable($path)) {
 			throw new Exception('Unable to read providers config from ' . $path . '.');
 		}
