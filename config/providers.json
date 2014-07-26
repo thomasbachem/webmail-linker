@@ -857,6 +857,18 @@
 		"url":     "https://webmail.tele2.at/",
 		"icon":    "https://www.tele2.de/favicon.ico"
 	},
+	{
+		"name":    "kabelplus Webmail",
+		"domains": "kabelplus[.]at kabsi[.]at kabelsignal[.]at wavenet[.]at",
+		"url":     "https://webmail.kabelplus.at/horde/imp/",
+		"icon":    "https://www.kabelplus.at/favicon.ico"
+	},
+	{
+		"name":    "kabelplus Webmail",
+		"domains": "bnet[.]at",
+		"url":     "https://webmail.bnet.at/",
+		"icon":    "https://www.kabelplus.at/favicon.ico"
+	},
 
 	"===== Austrian Universities =====",
 	{
