@@ -853,7 +853,7 @@
 	},
 	{
 		"name":    "Tele2 Webmail",
-		"domains": "tele2[.]at",
+		"domains": "tele2[.]at utanet[.]at",
 		"url":     "https://webmail.tele2.at/",
 		"icon":    "https://www.tele2.de/favicon.ico"
 	},
@@ -923,7 +923,7 @@
 	},
 	{
 		"name":    "Sunrise mail",
-		"domains": "sunrise[.]ch",
+		"domains": "sunrise[.]ch freesurf[.]ch",
 		"url":     "https://mip.sunrise.ch/mip/dyn/login/login",
 		"icon":    "https://mip.sunrise.ch/mip/ext/img/favicon.ico"
 	},
