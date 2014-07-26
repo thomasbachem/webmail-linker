@@ -123,6 +123,12 @@
 		"icon":    "https://mail.de/favicon.ico"
 	},
 	{
+		"name":    "Lycos Mail",
+		"domains": "lycos[.]de",
+		"url":     "http://www.mail.lycos.com/",
+		"icon":    "https://ly.lygo.com/ly/lycos/2/images/favicon.ico"
+	},
+	{
 		"name":    "Kabelmail",
 		"domains": "kabelmail[.]de",
 		"url":     "http://kabelmail.de/",
