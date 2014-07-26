@@ -1089,6 +1089,44 @@
 		"url":     "https://webmail.xs4all.nl",
 		"icon":    "https://webmail.xs4all.nl/images/favicon.ico"
 	},
+	{
+		"name":    "KPN Webmail",
+		"domains": "kpnmail[.]nl planet[.]nl",
+		"url":     "https://webmail.kpnmail.nl/mail/logon.asp",
+		"icon":    "https://webmail.kpnmail.nl/loginpages/images/kpnmail/favicon.ico"
+	},
+	{
+		"name":    "Netmail",
+		"domains": "hetnet[.]nl",
+		"url":     "https://webmail.hetnet.nl/mail/logon.asp",
+		"icon":    "https://webmail.kpnmail.nl/loginpages/images/kpnmail/favicon.ico"
+	},
+
+	"===== Spain =====",
+	{
+		"name":    "Correo Orange",
+		"domains": "orangemail[.]es wanadoo[.]es ya[.]com mixmail[.]com eresmas[.]com",
+		"url":     "http://correo.orange.es/",
+		"icon":    "http://www.orange.es/favicon.ico"
+	},
+	{
+		"name":    "Terra Mail",
+		"domains": "terra[.](es|com|com[.]pe|com[.]ve)",
+		"url":     "http://correo.terra.com/",
+		"icon":    "https://s1.trrsf.com.br/favicon.ico"
+	},
+	{
+		"name":    "Movistar",
+		"domains": "movistar[.]es telefonica[.]net",
+		"url":     "https://correo.movistar.es",
+		"icon":    "https://www.movistar.es/estaticos/favicon.ico"
+	},
+	{
+		"name":    "Correo ONO",
+		"domains": "ono[.]com",
+		"url":     "http://www.ono.com/correoONO/",
+		"icon":    "https://www.ono.es/ono-resources/img/favicon.png"
+	},
 
 	"===== Italy =====",
 	{
@@ -1102,6 +1140,42 @@
 		"domains": "tiscali[.]it",
 		"url":     "https://mail.tiscali.it/",
 		"icon":    "https://mail.tiscali.it/skins/wm_mc_tiscali_it/images/favicon.ico"
+	},
+	{
+		"name":    "Virgilio Mail",
+		"domains": "virgilio[.]it",
+		"url":     "http://mail.virgilio.it/login/",
+		"icon":    "http://www.virgilio.it/favicon.png"
+	},
+	{
+		"name":    "Alice Mail",
+		"domains": "alice[.]it tin[.]it tim[.]it",
+		"url":     "https://mail.alice.it/",
+		"icon":    "https://mail.alice.it/favicon.ico"
+	},
+	{
+		"name":    "FASTMail",
+		"domains": "fastwebnet[.]it",
+		"url":     "http://www.fastweb.it/servizi/fastmail/",
+		"icon":    "http://www.fastweb.it/favicon.ico"
+	},
+	{
+		"name":    "Email.it",
+		"domains": "email[.]it",
+		"url":     "http://www.email.it/mail.php",
+		"icon":    "https://www.email.it/favicon.ico"
+	},
+	{
+		"name":    "PEC",
+		"domains": "pec[.]it",
+		"url":     "https://legalwm.email.it/webmail/Login",
+		"icon":    "https://www.pec.it/favicon.ico"
+	},
+	{
+		"name":    "Katamail",
+		"domains": "katamail[.](it|com)",
+		"url":     "http://www.katamail.kataweb.it/",
+		"icon":    "http://www.kataweb.it/favicon.ico"
 	},
 
 	"===== Russia =====",
@@ -1192,12 +1266,111 @@
 		"icon":    "https://www.upc.hu/favicon.ico"
 	},
 
+	"===== Turkey =====",
+	{
+		"name":    "Mynet Üyelik",
+		"domains": "mynet[.]com",
+		"url":     "http://uyeler.mynet.com/",
+		"icon":    "https://uyeler.mynet.com/favicon.ico"
+	},
+	{
+		"name":    "Superonline Eposta",
+		"domains": "superonline[.]com ttnet[.]net[.]tr alanadi[.]com[.]tr",
+		"url":     "https://kurumsalposta.superonline.com",
+		"icon":    "http://www.superonline.net/favicon.png"
+	},
+
+	"===== Latin America =====",
+	{
+		"name":    "LatinMail",
+		"domains": "latinmail[.]com",
+		"url":     "http://www.latinmail.com/",
+		"icon":    "http://www.latinmail.com/favicon.ico"
+	},
+
+	"===== Argentina =====",
+	{
+		"name":    "FibertelMail",
+		"domains": "fibertel[.]com[.]ar",
+		"url":     "http://wm2.fibertel.com.ar/",
+		"icon":    "http://wm2.fibertel.com.ar/favicon.ico"
+	},
+	{
+		"name":    "Ciudad.com",
+		"domains": "ciudad[.]com[.]ar",
+		"url":     "http://webmail.ciudad.com.ar/",
+		"icon":    "http://static.ciudad.com.ar/sites/all/themes/urbem/favicon.ico"
+	},
+	{
+		"name":    "Webmail Arnet",
+		"domains": "arnet[.]com[.]ar",
+		"url":     "https://webmail.arnet.com.ar/",
+		"icon":    "https://webmail.arnet.com.ar/skins/default/images/favicon.ico"
+	},
+
+	"===== Uruguay =====",
+	{
+		"name":    "Adinet Correo",
+		"domains": "adinet[.]com[.]uy",
+		"url":     "http://correo.adinet.com.uy",
+		"icon":    "https://login.adinet.com.uy/login/images/lookandfeel/favicon.ico"
+	},
+
+	"===== Korea =====",
+	{
+		"name":    "Daum 메일",
+		"domains": "daum[.]net",
+		"url":     "http://mail.daum.net/",
+		"icon":    "https://i1.daumcdn.net/mimg/favicon/mail_favicon3.ICO"
+	},
+
 	"===== China =====",
 	{
 		"name":    "QQMail",
 		"domains": "qq[.]com",
 		"url":     "https://mail.qq.com",
 		"icon":    "https://mail.qq.com/favicon.ico"
+	},
+	{
+		"name":    "网易免费邮",
+		"domains": "163[.]com 126[.]com yeah[.]net vip[.]163[.]com",
+		"url":     "http://email.163.com/",
+		"icon":    "http://email.163.com/favicon.ico"
+	},
+	{
+		"name":    "新浪邮箱",
+		"domains": "sina[.](com[.]cn|com) vip[.]sina[.]com",
+		"url":     "http://mail.sina.com.cn/",
+		"icon":    "https://mail.sina.com.cn/favicon.ico"
+	},
+	{
+		"name":    "263企业邮箱",
+		"domains": "263[.]net",
+		"url":     "http://www.263.net/",
+		"icon":    "http://www.263.net/r/cms/www/263/resources/img/favicon.ico"
+	},
+	{
+		"name":    "搜狐闪电邮箱",
+		"domains": "sohu[.]com",
+		"url":     "http://mail.sohu.com/",
+		"icon":    "https://mail.sohu.com/favicon.ico"
+	},
+	{
+		"name":    "TOM邮箱登录",
+		"domains": "tom[.]com",
+		"url":     "http://mail.tom.com",
+		"icon":    "http://web.mail.tom.com/webmail-static/images/favicon.ico"
+	},
+	{
+		"name":    "登录21CN邮箱",
+		"domains": "21cn[.]com",
+		"url":     "http://mail.21cn.com/",
+		"icon":    "http://www.21cn.com/other/css/2012/index/bgimg/21cn-favicon.ico"
+	},
+	{
+		"name":    "Eyou个人邮件系统",
+		"domains": "eyou[.]com",
+		"url":     "http://eyou.com/"
 	}
 
 ]
