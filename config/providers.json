@@ -66,6 +66,12 @@
 		"url":     "http://www.mail.com/",
 		"icon":    "https://sec-s.uicdn.com/mail.com/3.0/img/favicon.ico"
 	},
+	{
+		"name":    "Tutanota",
+		"domains": "tutanota[.]de",
+		"url":     "https://app.tutanota.de/",
+		"icon":    "https://app.tutanota.de/graphics/favicon.png"
+	},
 
 	"===== Germany =====",
 	{
