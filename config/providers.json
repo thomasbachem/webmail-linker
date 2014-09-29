@@ -69,12 +69,6 @@
 
 	"===== Germany =====",
 	{
-		"name":    "Tutanota",
-		"domains": "tutanota[.]de",
-		"url":     "https://app.tutanota.de/",
-		"icon":    "https://app.tutanota.de/graphics/favicon.png"
-	},
-	{
 		"name":    "T-Online E-Mail",
 		"domains": "t-online[.]de",
 		"url":     "https://email.t-online.de/",
@@ -246,6 +240,12 @@
 		"domains": "directbox[.]com",
 		"url":     "https://directbox.com/",
 		"icon":    "https://directbox.com/portal/img/directbox/Icons/favicon/favicon.ico"
+	},
+	{
+		"name":    "Tutanota",
+		"domains": "tutanota[.]de",
+		"url":     "https://app.tutanota.de/",
+		"icon":    "https://app.tutanota.de/graphics/favicon.png"
 	},
 
 	"===== German Universities =====",
