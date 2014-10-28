@@ -966,12 +966,6 @@
 		"icon":    "https://www.tu-cottbus.de/cas/favicon.ico"
 	},
 	{
-		"name":    "B TU Cottbus",
-		"domains": "hg-gf.de",
-		"url":     "hg-gf.de",
-		"icon":    "https://www.tu-cottbus.de/cas/favicon.ico"
-	},
-	{
 		"name":    "HS RheinMain",
 		"domains": "student[.]hs-rm[.]de",
 		"url":     "https://webmail.student.hs-rm.de",
