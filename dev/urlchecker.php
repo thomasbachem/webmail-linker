@@ -52,8 +52,12 @@ foreach($providers as $i => $provider) {
 	print ' ' . $provider['name'] . "\n";
 	print "\x1B[22m";
 	
-	foreach(array('URL:  ' => $provider['url'], 'Icon: ' => $provider['icon']) as $label => $url) {
-		print $label . $url . ' - ';
+	foreach(array('URL:  ' => $provider['url'], 'Icon: ' => isset($provider['icon']) ? $provider['icon'] : null) as $label => $url) {
+		if($url) {
+			print $label . $url . ' - ';
+		} else {
+			print $label . '(not provided)';
+		}
 		
 		$tries = 0;
 		do {
