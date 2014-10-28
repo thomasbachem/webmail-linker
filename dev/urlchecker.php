@@ -57,6 +57,7 @@ foreach($providers as $i => $provider) {
 			print $label . $url . ' - ';
 		} else {
 			print $label . '(not provided)';
+			continue;
 		}
 		
 		$tries = 0;
