@@ -274,23 +274,32 @@
 	{
 		"name":    "Wilhelm.tel",
 		"domains": "wtnet[.]de",
-		"url":     "https://webmail.wtnet.de/"
+		"url":     "https://webmail.wtnet.de/",
+		"icon":    "https://webmail.wtnet.de/skins/wilhelmtel/images/favicon.ico"
 	},
 	{
 		"name":    "M-net",
 		"domains": "mnet-mail[.]de mnet-online[.]de maxi-dsl[.]de",
-		"url":     "https://webmail.mnet-online.de/rc/"
+		"url":     "https://webmail.mnet-online.de/rc/",
+		"icon":    "https://webmail.mnet-online.de/rc/skins/M-net/images/favicon.ico"
 	},
 	{
 		"name":    "VR-Web",
 		"domains": "vr-web[.]de",
-		"url":     "https://www.vr-web.de/vrweb/private"
+		"url":     "https://www.vr-web.de/vrweb/private",
+		"icon":    "https://www.vr-web.de/favicon.ico"
 	},
 	{
 		"name":    "Versatel",
 		"domains": "foni[.]net",
 		"url":     "https://webmail.versatel.de/ox.html",
 		"icon":    "http://www.versatel.de/sites/default/files/versatel_favicon_0.ico",
+	},
+	{
+		"name":    "Paderborn Mail",
+		"domains": "paderborn.com",
+		"url":     "https://www.paderborn.com",
+		"icon":    "https://www.paderborn.com/portal/img/paderborn/Icons/favicon/favicon.ico"
 	},
 
 	"===== German Universities =====",
@@ -645,7 +654,7 @@
 	{
 		"name":    "FU Berlin",
 		"domains": "zedat[.]fu-berlin[.]de fu-berlin[.]de",
-		"url":     "https://identity.fu-berlin.de/idp-fub/Authn/UserPassword",
+		"url":     "https://portal.zedat.fu-berlin.de/",
 		"icon":    "https://www.fu-berlin.de/images/fu-berlin/favicon.ico"
 	},
 	{
@@ -886,19 +895,19 @@
 		"name":    "Ostfalia",
 		"domains": "ostfalia[.]de",
 		"url":     "https://mika.sonia.de",
-		"icon":    "http://www.ostfalia.de/cms/system/modules/sonia.ostfalia/resources/images/favicon/favicon.ico"
+		"icon":    "https://www.ostfalia.de/cms/system/modules/sonia.ostfalia/resources/images/favicon/favicon.ico"
 	},
 	{
 		"name":    "HS Niederrhein",
 		"domains": "stud[.]hn[.]de",
 		"url":     "https://webmail.stud.hn.de",
-	  "icon":    "http://www.hs-niederrhein.de/fileadmin/images/layout/icons/favicon.ico"
+		"icon":    "http://www.hs-niederrhein.de/fileadmin/images/layout/icons/favicon.ico"
 	},
 	{
 		"name":    "Macromedia HS",
 		"domains": "mhmk[.]de",
 		"url":     "https://www.macromedia-portal.de",
-		"icon":    "http://www.macromedia-fachhochschule.de/fileadmin/images/sys/startseite/mhmk_logo_fb.gif"
+		"icon":    "https://www.macromedia-portal.de/favicon.ico"
 	},
   {
 		"name":    "Hochschule Darmstadt",
@@ -909,28 +918,26 @@
 	{
 		"name":    "FH Köln",
 		"domains": "smail[.]fh-koeln[.]de",
-		"url":     "https://sogo.uni-osnabrueck.de"
-	},
-	{
-		"name":    "FH Köln",
-		"domains": "smail[.]fh-koeln[.]de",
 		"url":     "https://webmail.fh-koeln.de",
 		"icon":    "https://webmail.fh-koeln.de/themes/fh-koeln/graphics/favicon.ico"
 	},
 	{
 		"name":    "HS Pforzheim",
 		"domains": "hs-pforzheim[.]de",
-		"url":     "https://webmail.hs-pforzheim.de"
+		"url":     "https://webmail.hs-pforzheim.de",
+		"icon":    "https://www.hs-pforzheim.de/favicon.ico"
 	},
 	{
 		"name":    "MyTUM",
 		"domains": "mytum[.]de",
-		"url":     "https://portal.mytum.de"
+		"url":     "https://portal.mytum.de",
+		"icon":    "https://portal.mytum.de/favicon.ico"
 	},
 	{
 		"name":    "Leuphana",
 		"domains": "stud[.]leuphana[.]de",
-		"url":     "https://mailhost.leuphana.de"
+		"url":     "https://mailhost.leuphana.de",
+		"icon":    "https://mailhost.leuphana.de/favicon.ico"
 	},
 	{
 		"name":    "Europa Universität",
@@ -941,7 +948,8 @@
 	{
 		"name":    "IUBH",
 		"domains": "iubh[.]de",
-		"url":     "http://mail.iubh.de"
+		"url":     "http://mail.iubh.de",
+		"icon":    "http://www.iubh.de/favicon.ico"
 	},
 	{
 		"name":    "Ratsgymnasiums Osnabrück",
@@ -951,10 +959,11 @@
 	{
 		"name":    "Hoffmann-von-Fallersleben-Schule",
 		"domains": "hvf-bs[.]net",
-		"url":     "https://hvf-bs.net/idesk/"
+		"url":     "https://hvf-bs.net/idesk/",
+		"icon":    "https://www.htw-berlin.de/fileadmin/Templates/images/favicon.ico"
 	},
 	{
-		"name":    "Hoffmann-von-Fallersleben-Schule",
+		"name":    "HTW Berlin",
 		"domains": "htw-berlin[.]de",
 		"url":     "https://webmail.htw-berlin.de/",
 		"icon":    "http://www.htw-berlin.de/fileadmin/Templates/images/favicon.ico"
@@ -969,18 +978,19 @@
 		"name":    "HS RheinMain",
 		"domains": "student[.]hs-rm[.]de",
 		"url":     "https://webmail.student.hs-rm.de",
-		"icon":    "http://www.hs-rm.de/typo3conf/ext/hsrm_template/resource/public/img/favicon.ico"
+		"icon":    "https://www.hs-rm.de/typo3conf/ext/hsrm_template/resource/public/img/favicon.ico"
 	},
 	{
 		"name":    "FH Erfurt",
 		"domains": "fh-erfurt[.]de",
 		"url":     "https://webmail.fh-erfurt.de",
-		"icon":    "http://www.fh-erfurt.de/fhe/fileadmin/templates/favicon.ico"
+		"icon":    "https://www.fh-erfurt.de/fhe/fileadmin/templates/favicon.ico"
 	},
 	{
 		"name":    "PH Heidelberg",
 		"domains": "ph-heidelberg[.]de",
-		"url":     "https://lamp42.ph-heidelberg.de/horde"
+		"url":     "https://lamp42.ph-heidelberg.de/horde",
+		"icon":    "https://lamp42.ph-heidelberg.de/horde/themes/silver/graphics/favicon.ico"
 	},
 	{
 		"name":    "HDM Stuttgart",
@@ -992,28 +1002,25 @@
 		"name":    "FH Brandenburg",
 		"domains": "fh-brandenburg.de",
 		"url":     "https://hermod1.fh-brandenburg.de/horde-webmail-1.2.11",
-		"icon":    "http://fh-brandenburg.de/fileadmin/fhb/favicon_new.ico"
-	},
-	{
-		"name":    "Paderborn",
-		"domains": "paderborn.com",
-		"url":     "https://www.paderborn.com",
-		"icon":    "https://www.paderborn.com/portal/img/paderborn/Icons/favicon/favicon.ico"
+		"icon":    "https://fh-brandenburg.de/fileadmin/fhb/favicon_new.ico"
 	},
 	{
 		"name":    "IGS Querum",
 		"domains": "igsquerum[.]de",
-		"url":     "https://igsquerum.de/idesk"
+		"url":     "https://igsquerum.de/idesk",
+		"icon":    "http://igsquerum.org/favicon.ico"
 	},
 	{
 		"name":    "HTWG Konstanz",
 		"domains": "htwg-konstanz[.]de",
-		"url":     "https://webmail.htwg-konstanz.de/SOGo"
+		"url":     "https://webmail.htwg-konstanz.de/SOGo",
+		"icon":    "https://webmail.htwg-konstanz.de/favicon.ico"
 	},
 	{
 		"name":    "HafenCity University",
 		"domains": "hcu-hamburg.de",
-		"url":     "https://webmail.hcu-hamburg.de/horde"
+		"url":     "https://webmail.hcu-hamburg.de/horde",
+		"icon":    "https://webmail.hcu-hamburg.de/rzt/include/tuhh_icon.ico"
 	},
 	{
 		"name":    "Gausschule Braunschweig",
@@ -1029,7 +1036,8 @@
 	{
 		"name":    "TU Kaiserslautern",
 		"domains": "rhrk[.]uni-kl[.]de",
-		"url":     "https://mail.uni-kl.de"
+		"url":     "https://mail.uni-kl.de",
+		"icon":    "https://www.uni-kl.de/fileadmin/wd2013/images/favicon.ico"
 	},
 	{
 		"name":    "Gymnasium Carolinum",
@@ -1146,7 +1154,8 @@
 	{
 		"name":    "Uni Salzburg",
 		"domains": "stud[.]sbg[.]ac[.]at",
-		"url":     "https://sso.sbg.ac.at"
+		"url":     "https://sso.sbg.ac.at",
+		"icon":    "https://sbg.ac.at/images_2004/favicon.ico"
 	},
 
 	"===== Switzerland =====",
@@ -1329,19 +1338,20 @@
 	{
 		"name":    "Maastricht University",
 		"domains": "student[.]maastrichtuniversity[.]nl",
-		"url":     "https://webmail.maastrichtuniversity.nl"
+		"url":     "https://webmail.maastrichtuniversity.nl",
+		"icon":    "http://www.maastrichtuniversity.nl/favicon.ico"
 	},
 	{
 		"name":    "Fontys",
 		"domains": "fontys[.]nl",
 		"url":     "https://webmail.fontys.nl/",
-		"icon":    "http://fontys.nl/static/fontyspresentation/favicon.ico"
+		"icon":    "https://fontys.nl/static/fontyspresentation/favicon.ico"
 	},
 	{
 		"name":    "Stenden",
 		"domains": "student[.]stenden[.]com",
 		"url":     "http://livemail.student.stenden.com",
-		"icon":    "http://fontys.nl/static/fontyspresentation/favicon.ico"
+		"icon":    "http://www.stenden.com/_layouts/Stenden/images/favicon.ico"
 	},
 
 	"===== Spain =====",
@@ -1477,12 +1487,6 @@
 		"url":     "https://poczta.onet.pl/",
 		"icon":    "https://konto.onet.pl/favicon.ico"
 	},
-	{
-		"name":    "Onet Poczta",
-		"domains": "onet[.](pl|eu) poczta[.]onet[.]pl op[.]pl vp[.]pl",
-		"url":     "https://poczta.onet.pl/",
-		"icon":    "https://konto.onet.pl/favicon.ico"
-	},
 
 	"===== Czech Republic =====",
 	{
@@ -1509,7 +1513,7 @@
 		"name":    "mail.bg",
 		"domains": "mail[.]bg",
 		"url":     "http://mail.bg",
-		"icon":    "http://mail.bg/favicon.ico"
+		"icon":    "https://mail.bg/favicon.ico"
 	},
 
 	"===== Hungary =====",
@@ -1528,7 +1532,8 @@
 	{
 		"name":    "CitroMail.hu",
 		"domains": "citromail[.]hu",
-		"url":     "http://www.citromail.hu/"
+		"url":     "http://www.citromail.hu/",
+		"icon":    "https://www.citromail.hu/favicon.ico"
 	},
 
 	"===== Turkey =====",
@@ -1649,7 +1654,7 @@
 		"name":    "Inbox",
 		"domains": "inbox[.]lv",
 		"url":     "http://www.inbox.lv",
-		"icon":    "http://www.inbox.lv/assets/com/img/icons/mail/favicon.ico"
+		"icon":    "https://www.inbox.lv/assets/com/img/icons/mail/favicon.ico"
 	},
 
 	"===== Ukraine =====",
@@ -1671,6 +1676,6 @@
 		"name":    "Azet",
 		"domains": "azet[.]sk",
 		"url":     "http://www.azet.sk",
-		"icon":    "http://img.centrum.sk/7/hp/img/skins005/spring/favicon.ico"
+		"icon":    "http://www.azet.sk/favicon.ico"
 	}
 ]
