@@ -293,7 +293,7 @@
 		"name":    "Versatel",
 		"domains": "foni[.]net",
 		"url":     "https://webmail.versatel.de/ox.html",
-		"icon":    "http://www.versatel.de/sites/default/files/versatel_favicon_0.ico",
+		"icon":    "http://www.versatel.de/sites/default/files/versatel_favicon_0.ico"
 	},
 	{
 		"name":    "Paderborn Mail",
