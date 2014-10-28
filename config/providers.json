@@ -859,7 +859,7 @@
 		"name":    "WHU Webmail",
 		"domains": "whu[.]edu",
 		"url":     "https://webmail.whu.edu/",
-		"icon":    "https://www.whu.edu/favicon.ico"
+		"icon":    "http://www.whu.edu/favicon.ico"
 	},
 	{
 		"name":    "Westfälische Hochschule",
@@ -1113,7 +1113,7 @@
 		"name":    "Uni Wien",
 		"domains": "univie[.]ac[.]at",
 		"url":     "http://webmail.univie.ac.at/",
-		"icon":    "https://www.univie.ac.at/fileadmin/favicon.ico"
+		"icon":    "https://www.univie.ac.at/favicon.ico"
 	},
 	{
 		"name":    "FH Wien",
@@ -1583,7 +1583,7 @@
 		"name":    "Adinet Correo",
 		"domains": "adinet[.]com[.]uy",
 		"url":     "http://correo.adinet.com.uy",
-		"icon":    "https://login.adinet.com.uy/login/images/lookandfeel/favicon.ico"
+		"icon":    "https://login.vera.com.uy/login/images/lookandfeel/favicon.ico"
 	},
 
 	"===== Korea =====",
