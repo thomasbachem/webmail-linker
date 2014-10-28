@@ -386,7 +386,7 @@
 	},
 	{
 		"name":    "Uni Köln",
-		"domains": "smail[.]uni-koeln[.]de",
+		"domains": "smail[.]uni-koeln[.]de uni-koeln[.]de",
 		"url":     "https://webmail.uni-koeln.de",
 		"icon":    "https://klips.uni-koeln.de/favicon.ico"
 	},
