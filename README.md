@@ -17,7 +17,7 @@ With Webmail Linker, you can offer a direct link to the user's webmail interface
 addition to the webmail URL, you'll get the name of the email provider and a favicon URL,
 so you can offer a button like "Check your email on [name and icon of the provider]".
 
-**The list contains 200+ email providers so far.**
+**The list contains 250+ email providers so far.**
 
 
 ### Languages
