@@ -84,6 +84,12 @@
 		"url":     "https://www.zoho.com/mail",
 		"icon":    "https://www.zoho.com/mail/img/favicon.ico"
 	},
+	{
+		"name":    "Web.com",
+		"domains": "web[.]com",
+		"url":     "https://webmail.web.com/",
+		"icon":    "http://web.com/favicon.ico"
+	},
 
 	"===== Germany =====",
 	{
