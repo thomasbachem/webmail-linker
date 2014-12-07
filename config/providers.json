@@ -80,7 +80,7 @@
 	},
 	{
 		"name":    "Zoho Mail",
-		"domains": "zoho.com",
+		"domains": "zoho[.]com",
 		"url":     "https://www.zoho.com/mail",
 		"icon":    "https://www.zoho.com/mail/img/favicon.ico"
 	},
@@ -297,7 +297,7 @@
 	},
 	{
 		"name":    "Paderborn Mail",
-		"domains": "paderborn.com",
+		"domains": "paderborn[.]com",
 		"url":     "https://www.paderborn.com",
 		"icon":    "https://www.paderborn.com/portal/img/paderborn/Icons/favicon/favicon.ico"
 	},
@@ -779,7 +779,7 @@
 	},
 	{
 		"name":    "Uni Paderborn",
-		"domains": "mail.uni-paderborn[.]de",
+		"domains": "mail[.]uni-paderborn[.]de",
 		"url":     "https://webmail.uni-paderborn.de",
 		"icon":    "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Icons/favicon.ico"
 	},
@@ -1000,7 +1000,7 @@
 	},
 	{
 		"name":    "FH Brandenburg",
-		"domains": "fh-brandenburg.de",
+		"domains": "fh-brandenburg[.]de",
 		"url":     "https://hermod1.fh-brandenburg.de/horde-webmail-1.2.11",
 		"icon":    "https://fh-brandenburg.de/fileadmin/fhb/favicon_new.ico"
 	},
@@ -1018,7 +1018,7 @@
 	},
 	{
 		"name":    "HafenCity University",
-		"domains": "hcu-hamburg.de",
+		"domains": "hcu-hamburg[.]de",
 		"url":     "https://webmail.hcu-hamburg.de/horde",
 		"icon":    "https://webmail.hcu-hamburg.de/rzt/include/tuhh_icon.ico"
 	},
@@ -1179,7 +1179,7 @@
 	},
 	{
 		"name":    "Raiffeisen Online",
-		"domains": "rolmail.net",
+		"domains": "rolmail[.]net",
 		"url":     "https://web.rolmail.net/",
 		"icon":    "https://rob.raiffeisen.it/favicon.ico"
 	},
