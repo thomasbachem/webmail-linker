@@ -45,7 +45,7 @@
 	{
 		"name":    "iCloud",
 		"domains": "me[.]com icloud[.]com mac[.]com",
-		"url":     "https://www.icloud.com/",
+		"url":     "https://www.icloud.com/#mail",
 		"icon":    "https://www.icloud.com/favicon.ico"
 	},
 	{
