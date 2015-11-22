@@ -65,7 +65,6 @@ foreach($providers as $i => $provider) {
 			// Sadly we cannot use HEAD requests because some servers fail to handle those
 			$curl = curl_init();
 			curl_setopt($curl, CURLOPT_VERBOSE, $verbose);
-			curl_setopt($curl, CURLOPT_SSLVERSION, $tries == 0 ? 3 : 2); 
 			curl_setopt($curl, CURLOPT_URL, $url);
 			curl_setopt($curl, CURLOPT_HEADER, true);
 			curl_setopt($curl, CURLOPT_COOKIEFILE, '');
