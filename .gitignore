@@ -1,0 +1,4 @@
+src/scala/.idea/**
+src/scala/project/**
+src/scala/target/**
+src/scala/.idea_modules/**
